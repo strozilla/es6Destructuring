@@ -1,3 +1,10 @@
+import animals from "./data";
+
+const [cat, dog] = animals;
+
+const { name, sound } = [cat, dog];
+console.log(dog.name);
+
 // CHALLENGE: uncomment the code below and see the car stats rendered
 // import React from "react";
 // import ReactDOM from "react-dom";
